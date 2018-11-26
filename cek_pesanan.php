@@ -40,8 +40,8 @@
 	<?php
 		include'koneksi.php';
 		if(isset($_GET['submit'])){
-		$nama = $_GET['name'];
-		$sql = mysqli_query($koneksi,"select * from rental_ps where nama like '%".$nama."%'") or die(mysql_error());
+		$nama = $_GET['nama'];
+		$sql = mysqli_query($koneksi,"select * from rental_ps where nama like '%$nama%' ") or die(mysql_error());
 		while ($query = mysqli_fetch_array($sql)) {
 		?>
 			<tr>
