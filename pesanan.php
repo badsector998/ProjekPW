@@ -7,7 +7,6 @@
 </head>
 <body>
 
-
 	<div class="container">
 		<div class="jumbotron">
 			<h1 class="display-2 border-bottom">Form Isian</h1>
@@ -42,7 +41,7 @@
 			<div class="form-group">
 				<label class="control-label col-sm2" for="durasi">Durasi : </label>
 				<div class="col-sm8">
-					<select class="form-control" required="1">
+					<select class="form-control" name="durasi" required="1">
 						<option>1 Hari</option>
 						<option>2 Hari</option>
 						<option>3 Hari</option>
@@ -78,8 +77,7 @@
 						</div>
 					<?php }
 			?>
-
-			<input type="submit" class="btn btn-success" name="SUBMIT" style="margin-bottom: 50px;"></input>
+			<center><input type="submit" class="btn btn-primary" name="SUBMIT" style="margin-bottom: 50px;"></input></center>
 		</form>
 	</div>
 

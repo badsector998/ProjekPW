@@ -9,13 +9,16 @@
 </head>
 <body>
 
-<div class="container">
-	<nav class="nav navbar-default">
-		<div class="nav navbar-header">
-			<a class="navbar-brand" href="ProjectPS.html">RENTAL PS YOGYAKARTA</a>
-		</div>
-	</nav>
-</div>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="ProjectPS.php">RENTAL PS YOGYKARTA</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="ProjectPS.php">Home</a></li>
+    </ul>
+  </div>
+</nav>
 	
 
 	<div class="container">
